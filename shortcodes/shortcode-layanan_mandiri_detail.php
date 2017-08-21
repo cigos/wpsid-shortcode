@@ -19,6 +19,7 @@ class OpenSID_Layanan_Mandiri_Detail_Shortcode extends OpenSID_Shortcode {
 			$data['detail'] = (!empty($_REQUEST['mandiri'])) ? $_REQUEST['mandiri'] : 'profil';
 			$data['setting']['sebutan_dusun'] = $this->setting->sebutan_dusun;
 			switch($data['detail']) {
+				default;
 				case 'profil':
 					$data['penduduk'] = OpenSID::load_ci_model('penduduk')->get_penduduk($_SESSION['id']);
 					$data['print'] = (!empty($_REQUEST['print'])) ? $_REQUEST['print'] : false;
@@ -46,6 +47,7 @@ class OpenSID_Layanan_Mandiri_Detail_Shortcode extends OpenSID_Shortcode {
 				);
 				$data['success'] = $outp;
 			}
+			echo '<pre>';print_r($_SESSION);echo '</pre>';
 			ob_start();
 			echo self::render($data);
 			$output_string = ob_get_contents();
