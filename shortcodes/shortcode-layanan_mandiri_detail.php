@@ -47,7 +47,6 @@ class OpenSID_Layanan_Mandiri_Detail_Shortcode extends OpenSID_Shortcode {
 				);
 				$data['success'] = $outp;
 			}
-			echo '<pre>';print_r($_SESSION);echo '</pre>';
 			ob_start();
 			echo self::render($data);
 			$output_string = ob_get_contents();
