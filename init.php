@@ -1,6 +1,9 @@
 <?php
 defined( 'ABSPATH' ) || die( 'No direct script access allowed!' );
 define( 'OPENSID_OPTION_KEY', 'wpsid_config' );
+if(strpos($_SERVER['HTTP_HOST'], '.demo.siini.com') !== false || strpos($_SERVER['HTTP_HOST'], '.devhost') !== false)
+	define( 'OPENSID_DEMO_SITE', true );
+else define( 'OPENSID_DEMO_SITE', false );
 define( 'OPENSID_ABSPATH', dirname( OPENSID__FILE__ ) . '/' );
 define( 'OPENSID_DIR_URL', plugin_dir_url( OPENSID__FILE__ ) );
 define( 'OPENSID_BASENAME', plugin_basename( OPENSID__FILE__ ) );

@@ -8,7 +8,7 @@
  * Description: Integrate OpenSID and SID to Wrodpress.
  * Author: Simasta
  * Author URI: http://simasta.siini.com
- * Version: 1.0.9
+ * Version: 1.0.9.1
  * Text Domain: wpsid-shortcode
  * Domain Path: /locale/
  * Network: false

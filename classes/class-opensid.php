@@ -1,7 +1,7 @@
 <?php
 defined( 'ABSPATH' ) || die( 'No direct script access allowed!' );
 abstract class OpenSID {
-	const version = '1.0.9';
+	const version = '1.0.9.1';
 	public static $model_opensid;
 	public static $controller;
 	public static function run() {

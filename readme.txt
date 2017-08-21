@@ -4,14 +4,14 @@ Donate link: http://www.siini.com/wordpress/plugins/wpsid-shortcode/
 Tags: opensid, shortcode, sid, sistem informasi desa
 Requires at least: 4.3
 Tested up to: 4.8.1
-Stable tag: 1.0.9
+Stable tag: 1.0.9.1
 License: GPLv2 or later
 
 Integrate OpenSID and SID into Wrodpress.
 
 == Description ==
 
-WPSID Shortcode integrate OpenSID and SID into Wrodpress with shortcodes. You can display statistics data from OpenSID and SID into wordpress. Visit [**demo site**](http://wpsid-shortcode.plugin.demo.siini.com/) for detail.
+WPSID Shortcode integrate OpenSID and SID into Wrodpress with shortcodes. You can display statistics data from OpenSID and SID into wordpress. Visit [**http://wpsid-shortcode.plugin.demo.siini.com**](http://wpsid-shortcode.plugin.demo.siini.com/) for detail.
 
 If you find this useful, [**please consider donating**](http://www.siini.com/wordpress/plugins/wpsid-shortcode/) whatever sum you choose, **even just 10 cents**.
 
@@ -39,7 +39,7 @@ If you find this useful, [**please consider donating**](http://www.siini.com/wor
   './wp-content/plugins/wpsid-shortcode/*'
 1. Activate plugin at "Plugins" administration page.
 1. Verify configuration on admin panel.
-1. Place shortcodes build in opensid plugin to your post, page, or widget, or use `echo do_shortcode("[name_shortcode]")` code.
+1. Place shortcodes build in opensid plugin to your post, page, or widget, or use `echo do_shortcode("[name_shortcode]")` code ini php files.
 
 = The Shortcodes =
 
@@ -75,9 +75,15 @@ Yes.
 2. How to usage shortcode
 3. Example directory structure
 4. Admin page
+5. Layanan Mandiri
 
 
 == Changelog ==
+
+= 1.0.9.1 =
+*Release Date - 2017/08/20*
+
+* Hot fix
 
 = 1.0.9 =
 *Release Date - 2017/08/20*
